@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://drive.google.com/file/d/1IAFKKaMJ3p2YE9vtSsb5ql5uEOSLp0ww/view?usp\u003dsharing",
+    "link": "https://h20161004.wixsite.com/monster2020",
+    "text": "팀 알쓸신요"
+  },
+  "text": {
+    "more": "\u003c알쓸신요\u003e시각화에 사용된 데이터는 모두 “한국괴물백과(곽재식)”와 “한국요괴도감(고성배)”에 수록된 괴물/요괴를 합쳐 구성되었다.\n\n자세한 내용은 https://h20161004.wixsite.com/monster2020/data 를 참조 바람.",
+    "intro": "\u003c알쓸신요\u003e프로젝트 중 노드 유형별 분류를 시각화한 결과_full.ver",
+    "title": "알아두면 쓸모있는 신비한 요괴사전"
+  },
+  "legend": {
+    "edgeLabel": "기록됨",
+    "colorLabel": "노드유형별 분류",
+    "nodeLabel": "요괴, 기록문헌, 문헌, 지역"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "분류속성1",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
